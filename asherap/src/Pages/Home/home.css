@@ -1,11 +1,12 @@
 #homeContainer {
-  padding: 4em;
+
 }
 
 #homeHeader {
-  background-color: blue;
+  border: blue solid;
   margin-bottom: 5%;
   text-align: center;
+  padding: 4em;
 }
 
 #headerTitle {

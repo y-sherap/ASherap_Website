@@ -1,3 +1,4 @@
+import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import './home.css'
 
@@ -16,6 +17,7 @@ const Home = () => {
         </div>
       </div>
       <Portfolio />
+      <About/>
     </div>
   )
 }

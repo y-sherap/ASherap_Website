@@ -1,0 +1,20 @@
+#aboutContainer {
+  padding: 4em;
+  border: black solid;
+  margin-top: 2%;
+  background-color:rgb(209, 232, 211)
+}
+
+#aboutTitle{
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+#aboutTextContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutText {
+  margin-bottom: 2%;
+}

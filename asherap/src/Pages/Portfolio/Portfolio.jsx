@@ -6,32 +6,32 @@ const Portfolio = () => {
     <div>
       <div id="portfolioContainer">
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+          <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
         <div className="portfolioImageContainer">
-          <a href="https://google.com" target="_blank">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://frictionfilmsnet.files.wordpress.com/2020/09/screenshot-2020-09-25-at-16.56.26.png?w=448" alt="graph" />
           </a>
         </div>
