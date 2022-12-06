@@ -1,0 +1,14 @@
+#contactContainer {
+  padding: 2em;
+  background-color:rgb(49, 121, 55);
+  /* text-align: center; */
+}
+
+#contactTitle{
+font-size: 1.5em;
+margin-bottom: 1%;
+}
+
+#copyright{
+  text-align: center;
+}

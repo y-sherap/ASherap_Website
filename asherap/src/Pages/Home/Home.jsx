@@ -1,5 +1,6 @@
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
+import Contact from '../Contact/Contact'
 import './home.css'
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       </div>
       <Portfolio />
       <About/>
+      <Contact />
     </div>
   )
 }
