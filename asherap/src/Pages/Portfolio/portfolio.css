@@ -1,9 +1,22 @@
+#portfolioComponent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 4em;
+  padding-left: 4em;
+}
+
+#portfolioTitle{
+  font-size: 2em;
+}
+
 #portfolioContainer {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border: black solid;
-  padding: 4em;
+  padding-right: 4em;
+  padding-left: 4em;
+  padding-top: 4em;
 }
 
 .portfolioImageContainer{

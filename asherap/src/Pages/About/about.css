@@ -1,12 +1,12 @@
 #aboutContainer {
   padding: 4em;
   margin-top: 2%;
-  background-color:rgb(209, 232, 211)
+  background-color:	#F7F7F7;
 }
 
 #aboutTitle{
   font-size: 2em;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 #aboutTextContainer {

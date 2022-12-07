@@ -12,9 +12,7 @@ const Home = () => {
           Anzee Sherap
         </div>
         <div id="subheader">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Hello! This is a collection of my personal projects made during free time.
         </div>
       </div>
       <Portfolio />

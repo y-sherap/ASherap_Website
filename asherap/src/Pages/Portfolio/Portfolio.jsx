@@ -3,14 +3,15 @@ import './portfolio.css'
 const Portfolio = () => {
 
   return (
-    <div>
+    <div id="portfolioComponent">
+      {/* <div id="portfolioTitle">Portfolio</div> */}
       <div id="portfolioContainer">
         <div className="portfolioImageContainer">
           <a href="https://google.com" target="_blank" rel="noreferrer">
             <img className="portfolioImage" src="https://i0.wp.com/crowintelligence.org/wp-content/uploads/2020/04/graphheader.png?resize=880%2C500&ssl=1" alt="graph" />
             <div className="imageOverlay">
                 <div className="imageTitle">Pretty Colors</div>
-                <p className="imageDescription">Made in Tableu, 2012</p>
+                <p className="imageDescription">Made in Tableau, 2012</p>
             </div>
           </a>
         </div>
