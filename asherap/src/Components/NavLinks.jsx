@@ -1,17 +1,34 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
-const NavLinks = () => {
+const NavLinks = (props) => {
+
+  const animateFrom = {opacity: 0, y:-40}
+  const animateTo = {opacity: 1, y:0}
+
   return (
     <ul>
-      <li>
+      <motion.li 
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{delay: 0.20}}
+        onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/">Home</a>
-      </li>
-      <li>
+      </motion.li>
+      <motion.li 
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{delay: 0.20}}
+        onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#about">About</a>
-      </li>
-      <li>
+      </motion.li>
+        <motion.li 
+          initial={animateFrom}
+          animate={animateTo}
+          transition={{delay: 0.20}}
+          onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#contact">Contact</a>
-      </li>
+      </motion.li>
   </ul>
   )
 }

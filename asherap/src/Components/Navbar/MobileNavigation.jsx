@@ -2,16 +2,30 @@ import React from 'react'
 import NavLinks from '../NavLinks'
 import './navbar.css'
 import {BiMenu} from 'react-icons/bi'
+import {GrFormClose} from 'react-icons/gr'
+import { useState } from 'react'
 
 const MobileNavigation = () => {
+
+  const [open, setOpen] = useState(false)
+
+  const hamburgerIcon = 
+    <BiMenu id="hamburger" 
+    size='40px' color="black"
+    onClick={()=> setOpen(!open)} />
+
+  const closeIcon = 
+    <GrFormClose id="hamburger" 
+    size='40px' color="black"
+    onClick={()=> setOpen(!open)} />
+
+  const closeMobileMenu = () => setOpen(false);
 
   return (
     <div id="mobileNavigation">
       <nav>
-        <BiMenu id="hamburger" 
-          size='40px' color="white"
-          onClick={()=> console.log("you clicked on the icon")} />
-        <NavLinks />
+        {open ? closeIcon : hamburgerIcon}
+        {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
       </nav>
     </div>
 

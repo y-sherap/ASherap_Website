@@ -28,11 +28,11 @@
 
 #navbarContainer nav ul li a {
   text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 #navbarContainer a:hover {
-  border-bottom: 5px solid blue;
+  color: blue;
 }
 
 #about{
@@ -50,9 +50,9 @@
 
   #mobileNavigation{
     display:flex;
-    flex-direction: row;
-    background-color: red;
-    align-items: center;
+    align-items: center; 
+    justify-content: center;
+    background-color: green;
     width: 100%;
   }
 
@@ -60,6 +60,22 @@
     position: absolute;
     right: 5%;
     cursor: pointer;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+  }
+
+  nav ul li{
+    margin-right: 5%;
+  }
+
+  #navContainer a:hover{
+    border-bottom: none;
   }
 }
 
