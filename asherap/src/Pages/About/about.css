@@ -2,17 +2,20 @@
   padding: 4em;
   margin-top: 2%;
   background-color:	#F7F7F7;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: justify;
 }
 
 #aboutTitle{
   font-size: 2em;
   margin-bottom: 2%;
 }
-
+/* 
 #aboutTextContainer {
-  display: flex;
-  flex-direction: column;
-}
+} */
 
 .aboutText {
   margin-bottom: 2%;
