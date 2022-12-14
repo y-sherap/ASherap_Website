@@ -1,7 +1,7 @@
 .aboutContainer {
   padding: 8em;
   margin-top: 2%;
-  background-color:	#F7F7F7;
+  /* background-color:	#F7F7F7; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

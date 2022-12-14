@@ -13,7 +13,7 @@
   justify-content: right;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  background-color: #D6CB1F;
+  background-color: #eaeae4;
   height: 80px;
   width: 100%;
   position: fixed;
@@ -40,7 +40,7 @@
 }
 
 #navbarContainer a:hover {
-  color: blue;
+  color: #D6CB1F;
 }
 
 #mobileNavigation{
@@ -70,7 +70,7 @@
     flex-direction: column;
     position: absolute;
     right: 0;
-    background-color: #D6CB1F;
+    background-color: #eaeae4;
     width: 100%;
   }
 
