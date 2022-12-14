@@ -1,12 +1,20 @@
 .contactContainer {
-  padding: 2em;
-  background-color: #9BB97E;
-  /* width: 100%; */
+  padding: 8em;
+  background-color: #D6CB1F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
 }
 
 #contactTitle{
-font-size: 1.5em;
-margin-bottom: 1%;
+font-size: 2em;
+margin-bottom: 2%;
+}
+
+#contactInfo {
+  margin-bottom: 2%;
 }
 
 #copyright{

@@ -5,10 +5,10 @@ import Navigation from './Navigation'
 const Navbar = () => {
 
   return (
-    <div id="navbarContainer">
-      <MobileNavigation />
-      <Navigation />
-    </div>
+      <div id="navbarContainer">
+        <MobileNavigation />
+        <Navigation />
+      </div>
   )
 }
 

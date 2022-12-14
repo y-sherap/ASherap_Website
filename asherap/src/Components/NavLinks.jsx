@@ -7,29 +7,36 @@ const NavLinks = (props) => {
   const animateTo = {opacity: 1, y:0}
 
   return (
-    <ul>
+    <div>
+      <div>
+        
+      </div>
+      <div>
+                  <ul>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
-        transition={{delay: 0.20}}
+        transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/">Home</a>
       </motion.li>
       <motion.li 
         initial={animateFrom}
         animate={animateTo}
-        transition={{delay: 0.20}}
+        transition={{delay: 0.30}}
         onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#about">About</a>
       </motion.li>
         <motion.li 
           initial={animateFrom}
           animate={animateTo}
-          transition={{delay: 0.20}}
+          transition={{delay: 0.30}}
           onClick={() => props.isMobile && props.closeMobileMenu()}>
         <a href="/#contact">Contact</a>
       </motion.li>
   </ul>
+      </div>
+    </div>
   )
 }
 

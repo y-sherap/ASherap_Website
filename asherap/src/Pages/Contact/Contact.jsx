@@ -5,7 +5,7 @@ const Contact = () => {
   return(
     <div className="contactContainer" id="contact">
       <div id="contactTitle">
-        Contact
+        Work With Me
       </div>
       <div id="contactInfo">
         <div>Anzee Sherap</div>
@@ -13,7 +13,7 @@ const Contact = () => {
 
       </div>
       <div id="copyright">
-        Copyright © 2022 All rights reserved      
+        Copyright © 2022 All rights reserved | Template made by Yangtsel Sherap
       </div>
     </div>
   )

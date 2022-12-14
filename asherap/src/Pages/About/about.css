@@ -1,8 +1,7 @@
 .aboutContainer {
-  padding: 4em;
+  padding: 8em;
   margin-top: 2%;
   background-color:	#F7F7F7;
-  /* width: 100%; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -13,9 +12,6 @@
   font-size: 2em;
   margin-bottom: 2%;
 }
-/* 
-#aboutTextContainer {
-} */
 
 .aboutText {
   margin-bottom: 2%;
