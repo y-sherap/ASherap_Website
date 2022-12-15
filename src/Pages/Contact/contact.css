@@ -20,3 +20,23 @@ margin-bottom: 2%;
 #copyright{
   text-align: center;
 }
+
+@media (max-width: 990px) {
+  .contactContainer {
+    padding: 2em;
+    background-color: #D6CB1F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+  }
+  #contactTitle{
+    font-size: 2em;
+    margin-bottom: 4%;
+    }
+    
+    #contactInfo {
+      margin-bottom: 4%;
+    }
+}

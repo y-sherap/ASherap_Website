@@ -9,7 +9,7 @@ const Home = () => {
     <div id="homeContainer">
       <div id="homeHeader">
         <div id="headerTitle">
-          FirstName LastName
+          Your Name
         </div>
         <div id="subheader">
         Hello! This is a collection of my personal projects made during free time.
